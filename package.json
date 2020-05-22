@@ -1,0 +1,19 @@
+{
+  "name": "jobr",
+  "version": "1.0.0",
+  "description": "simple example to explain DI",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Anzieu",
+  "license": "ISC",
+  "devDependencies": {
+    "inversify": "^5.0.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
